@@ -28,10 +28,12 @@ This repository presents an advanced Python implementation of a question-answeri
 ## Usage
 Execute the script from the command line. You will be prompted to enter a question. The script will then display the answer derived from the context of the article content. To end the session, type 'quit' when prompted for a question.
 
-   ```sh
-   python simpleai.py
 ## Advanced Configuration
 - To use a different model or tokenizer, modify the pipeline instantiation in the script. The transformers library offers a wide array of pre-trained models that can be leveraged for various languages and domains.
 
 ## Contributions
 - Contributions to this project are welcome. Please fork the repository, make your changes, and submit a pull request.
+
+   ```sh
+   python simpleai.py
+
