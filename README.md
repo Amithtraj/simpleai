@@ -27,8 +27,9 @@ This repository presents an advanced Python implementation of a question-answeri
 1. Place the text file with the article you want to analyze in the root directory of the project, named article_content.txt.
 ## Usage
 Execute the script from the command line. You will be prompted to enter a question. The script will then display the answer derived from the context of the article content. To end the session, type 'quit' when prompted for a question.
-  'python simpleai.py'
 
+   ```sh
+   python simpleai.py
 ## Advanced Configuration
 - To use a different model or tokenizer, modify the pipeline instantiation in the script. The transformers library offers a wide array of pre-trained models that can be leveraged for various languages and domains.
 
